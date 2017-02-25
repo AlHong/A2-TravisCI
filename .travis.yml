@@ -7,5 +7,5 @@ script:
  - python -m unittest discover -v
  - coverage run test.py 
 after_success:
-  - codecov --token=c186f38f-d474-4350-9419-af731ec7869f #test
+  - codecov --token=09619586-aaad-45f7-be2f-7d021c424447 #test
 
