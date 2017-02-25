@@ -9,3 +9,10 @@ script:
 after_success:
   - codecov --token=09619586-aaad-45f7-be2f-7d021c424447 #test
 
+deploy:
+  provider: s3
+  access_key_id: AKIAJMTZQ3LADHZSLNFQ 
+  secret_access_key: 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 
+  bucket: cps847travisci
+  local-dir: html
+  region: Montreal
