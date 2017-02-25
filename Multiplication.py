@@ -7,4 +7,7 @@ def Cube(value):
 def Multiply(value,multiplier):
     return value*multiplier
 
+def UnusedFunction():
+    #Testing out code coverage report
+    return 1;
 
